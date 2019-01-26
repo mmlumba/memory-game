@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.card {
+    background-color: #eee;
+    border: 1px solid #000000;
+    flex: 1 0 auto;
+    flex-basis: calc(25% - 40px);
+    flex-direction: column;
+}
+
+.card.disabled {
+    pointer-events: none;
+}
+
+.card.one.show, .card.one.match.disabled {
+    background-image: url("images/1.jpeg");
+    background-size: contain;
+}
+
+.card.two.show, .card.two.match.disabled  {
+    background-image: url("images/2.jpeg");
+    background-size: contain;
+}
+
+.card.three.show, .card.three.match.disabled  {
+    background-image: url("images/3.jpeg");
+    background-size: contain;
+}
+
+.card.four.show, .card.four.match.disabled  {
+    background-image: url("images/4.jpeg");
+    background-size: contain;
+}
+
+.card.five.show, .card.five.match.disabled {
+    background-image: url("images/5.jpeg");
+    background-size: contain;
+}
+
+.card.six.show, .card.six.match.disabled {
+    background-image: url("images/6.jpeg");
+    background-size: contain;
+}
+
+.card.seven.show, .card.seven.match.disabled {
+    background-image: url("images/7.jpeg");
+    background-size: contain;
+}
+
+.card.eight.show, .card.eight.match.disabled  {
+    background-image: url("images/8.jpeg");
+    background-size: contain;
+}
+
+.card-container {
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
